@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f4f7;
+}
+body main section {
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main section .boxs .box1 {
+  position: relative;
+  top: 0;
+  z-index: 100;
+  display: flex;
+}
+body main section .boxs .box1 .FaceIn {
+  transform: translateZ(6px);
+  text-align: center;
+  width: 435px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+body main section .boxs .box1 .FaceIn h2 {
+  font-size: 40px;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+body main section .boxs .box1 .FaceIn h2 span {
+  color: #1877F2;
+}
+body main section .boxs .box1 .FaceIn .logform .Inpbox {
+  position: relative;
+  margin: 20px 0;
+}
+body main section .boxs .box1 .FaceIn .logform .Inpbox input {
+  background-color: rgba(24, 118, 242, 0.0470588235);
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  color: #0000ff;
+  font-size: 18px;
+  border-bottom: 2px solid rgba(24, 118, 242, 0.5568627451);
+  transition: 0.4s;
+}
+body main section .boxs .box1 .FaceIn .logform .Inpbox input:focus {
+  background-color: white;
+  border-color: #0000ff;
+  box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+}
+body main section .boxs .box1 .FaceIn .logform .Inpbox input:focus + span,
+body main section .boxs .box1 .FaceIn .logform .Inpbox input input:not(:placeholder-shown) + span {
+  top: 5px;
+  font-size: 12px;
+  color: #0008ff;
+}
+body main section .boxs .box1 .FaceIn .logform .Inpbox span {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.4s;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+}
+body main section .boxs .box1 .FaceIn .logform .log {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(24, 118, 242, 0.7882352941);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main section .boxs .box1 .FaceIn .logform .log:hover {
+  background-color: #1877F2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1490196078);
+}
+body main section .boxs .box1 .FaceIn p {
+  color: #1877F2;
+  margin-top: 20px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+body main section .boxs .box1 .FaceIn p:hover {
+  text-decoration: underline;
+}
+body main section .boxs .box1 .HelloUp {
+  transform: translateZ(6px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 435px;
+  height: 550px;
+  background-color: #1877F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main section .boxs .box1 .HelloUp h1 {
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  line-height: 2;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+body main section .boxs .box1 .HelloUp p {
+  width: 75%;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+body main section .boxs .box1 .HelloUp button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  width: 160px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body main section .boxs .box1 .HelloUp button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1490196078);
+}
+body main section .boxs .box2 {
+  position: relative;
+  top: -550px;
+  z-index: 100;
+  display: flex;
+}
+body main section .boxs .box2 .WelcomIn {
+  transform: translateZ(5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 435px;
+  height: 550px;
+  background-color: #1877F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main section .boxs .box2 .WelcomIn h1 {
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  line-height: 2;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+body main section .boxs .box2 .WelcomIn p {
+  width: 80%;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+body main section .boxs .box2 .WelcomIn #myButton1 {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  width: 160px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body main section .boxs .box2 .WelcomIn #myButton1:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1490196078);
+}
+body main section .boxs .box2 .FaceUp {
+  transform: translateZ(5px);
+  text-align: center;
+  width: 435px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+body main section .boxs .box2 .FaceUp h1 {
+  font-size: 40px;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #1877F2;
+}
+body main section .boxs .box2 .FaceUp h2 {
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 2;
+}
+body main section .boxs .box2 .FaceUp h2 span {
+  color: #1877F2;
+}
+body main section .boxs .box2 .FaceUp hr {
+  width: 100%;
+}
+body main section .boxs .box2 .FaceUp .nameform {
+  display: flex;
+  gap: 20px;
+}
+body main section .boxs .box2 .FaceUp .nameform .Inpbox {
+  width: 170px;
+  position: relative;
+  margin: 20px 0;
+}
+body main section .boxs .box2 .FaceUp .nameform .Inpbox input {
+  background-color: rgba(24, 118, 242, 0.0470588235);
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  color: #0000ff;
+  font-size: 18px;
+  border-bottom: 2px solid rgba(24, 118, 242, 0.5568627451);
+  transition: 0.4s;
+}
+body main section .boxs .box2 .FaceUp .nameform .Inpbox input:focus {
+  background-color: white;
+  border-color: #0000ff;
+  box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+}
+body main section .boxs .box2 .FaceUp .nameform .Inpbox input:focus + span,
+body main section .boxs .box2 .FaceUp .nameform .Inpbox input input:not(:placeholder-shown) + span {
+  top: 5px;
+  font-size: 12px;
+  color: #0008ff;
+}
+body main section .boxs .box2 .FaceUp .nameform .Inpbox span {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.4s;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+}
+body main section .boxs .box2 .FaceUp .nameform button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(24, 118, 242, 0.7882352941);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main section .boxs .box2 .FaceUp .nameform button:hover {
+  background-color: #1877F2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1490196078);
+}
+body main section .boxs .box2 .FaceUp .dateform select {
+  width: 125px;
+  height: 36px;
+  padding: 0 8px;
+  border-radius: 5px;
+  border-color: #1877F2;
+}
+body main section .boxs .box2 .FaceUp .genderform {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+body main section .boxs .box2 .FaceUp .genderform label {
+  padding: 10px 25px;
+  border: 1px solid #1877F2;
+  border-radius: 5px;
+}
+body main section .boxs .box2 .FaceUp .genderform label input {
+  margin-left: 10px;
+  border: 5px;
+}
+body main section .boxs .box2 .FaceUp .emailinp .Inpbox {
+  width: 375px;
+  position: relative;
+  margin: 10px 0 20px;
+}
+body main section .boxs .box2 .FaceUp .emailinp .Inpbox input {
+  background-color: rgba(24, 118, 242, 0.0470588235);
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  color: #0000ff;
+  font-size: 18px;
+  border-bottom: 2px solid rgba(24, 118, 242, 0.5568627451);
+  transition: 0.4s;
+}
+body main section .boxs .box2 .FaceUp .emailinp .Inpbox input:focus {
+  background-color: white;
+  border-color: #0000ff;
+  box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+}
+body main section .boxs .box2 .FaceUp .emailinp .Inpbox input:focus + span,
+body main section .boxs .box2 .FaceUp .emailinp .Inpbox input input:not(:placeholder-shown) + span {
+  top: 5px;
+  font-size: 12px;
+  color: #0008ff;
+}
+body main section .boxs .box2 .FaceUp .emailinp .Inpbox span {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.4s;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+}
+body main section .boxs .box2 .FaceUp button {
+  width: 200px;
+  height: 36px;
+  background-color: #1877F2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main section .boxs .box2 .FaceUp button:hover {
+  background-color: #1877F2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3843137255);
+}
+
+.leftanimation {
+  animation: leftanimation 1.5s forwards;
+}
+
+.rightanimation {
+  animation: rightanimation 1.5s forwards;
+}
+
+.rightanimation1 {
+  animation: rightanimation1 1.5s forwards;
+}
+
+.leftanimation1 {
+  animation: leftanimation1 1.5s forwards;
+}
+
+.boxanimation {
+  animation: boxanimation 1s 0.5s forwards;
+}
+
+@keyframes rightanimation {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+}
+@keyframes leftanimation {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+}
+@keyframes rightanimation1 {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+}
+@keyframes leftanimation1 {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+}
+@keyframes boxanimation {
+  from {
+    z-index: 100;
+  }
+  to {
+    z-index: 50;
+  }
+}
